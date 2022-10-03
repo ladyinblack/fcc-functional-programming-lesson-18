@@ -23,7 +23,8 @@ const globalArray = [5, 6, 3, 2, 9];
 
 function nonMutatingSort(arr) {
   // Only change code below this line
-  return arr.sort((a, b) => {
+  const newArr = arr.slice();
+  return newArr.sort((a, b) => {
     return a - b;
   });
 
@@ -31,5 +32,4 @@ function nonMutatingSort(arr) {
 }
 
 console.log(nonMutatingSort(globalArray));
-console.log(nonMutatingSort([1, 30, 4, 21, 100000]));
-console.log(nonMutatingSort([140000, 104, 99]));
+console.log(globalArray);
