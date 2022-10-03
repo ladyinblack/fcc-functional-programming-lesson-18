@@ -18,3 +18,5 @@ nonMutatingSort(globalArray);
 - Firstly concatenate the array taken in as a parameter to a new empty array.
 - The Use the `sort()` method as seen in the last challenge and create a function to sort the new array in ascending order.
 
+
+NOTE: THE ABOVE SOLUTION DOES NOT SEEM TO WORK CORRECTLY!
